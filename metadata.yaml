@@ -1,0 +1,27 @@
+_repo: --_23824
+_version: 0.1.0
+alternative_title: Shuo Tang
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  author:
+    agent_name: Luo, Guanzhong
+    alias: 羅貫中
+    gutenberg_agent_id: '1511'
+    url: http://www.gutenberg.org/2009/agents/1511
+    wikipedia: http://en.wikipedia.org/wiki/Luo_Guanzhong
+description: ''
+gutenberg_issued: '2007-12-11'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '23824'
+language: zh
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'China -- History -- Tang dynasty, 618-907 -- Fiction'
+- !lcc 'PL'
+title: 說唐
+url: http://www.gutenberg.org/ebooks/23824
