@@ -1,123 +1,178 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
   xmlns:cc="http://web.resource.org/cc/"
-  xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
 >
   <pgterms:ebook rdf:about="ebooks/23824">
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/23824.rdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:18:27.860948</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/23824"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9992</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne49721823c664168ad477274b16c94a6">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</pgterms:downloads>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N8f6f86b0f3854e5fb393962495535d0f">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>China -- History -- Tang dynasty, 618-907 -- Fiction</rdf:value>
+      <rdf:Description rdf:nodeID="N5eba9e99bd6c4d6e924fe7f449ae410f">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>PL</rdf:value>
       </rdf:Description>
     </dcterms:subject>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</pgterms:downloads>
-    <dcterms:license rdf:resource="license"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-12-11</dcterms:issued>
+    <dcterms:title>說唐</dcterms:title>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/23824.html.gen">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">657291</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/23824"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T19:03:59.507303</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/23824.html.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-12T01:46:35.055192</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">664344</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N02c531e61187410491b5b1844fcaa383">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          <rdf:Description rdf:nodeID="N3253bb596ca141868a5d17fd95375022">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/23824"/>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/1511">
-        <pgterms:name>Luo, Guanzhong</pgterms:name>
-        <pgterms:alias>羅貫中</pgterms:alias>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Luo_Guanzhong"/>
-      </pgterms:agent>
-    </dcterms:creator>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/23824.epub.noimages">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T19:04:00.666140</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">315139</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/23824"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">305023</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-12T01:46:35.679177</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N58de2795c5e24cddbdae9363ecca3f26">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          <rdf:Description rdf:nodeID="Nd510e70cde2c4d4abcbc16a3f2144d9b">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="Nb6fbfc1bc79841438c1ce9d1ddb9f7c0">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">zh</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:alternative>Shuo Tang</dcterms:alternative>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/23824.epub.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/23824"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N38ba90c9bd0741deb03a9964a4bf8dd8">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-12T01:46:35.474189</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">315139</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="N78ac35cb5fe84d0f91e5da2c527a8fa9">
+      <rdf:Description rdf:nodeID="Nbb6b12c4693148f3b4596fe35d22a118">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
         <rdf:value>Text</rdf:value>
       </rdf:Description>
     </dcterms:type>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N3ff80d542a0744b5b7e725f22424aeee">
-        <rdf:value>PL</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-      </rdf:Description>
-    </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/23824.kindle.noimages">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/23824/23824-0.zip">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N8cc9b78e001948f6a69ec75e826723ea">
+          <rdf:Description rdf:nodeID="N35aef7dbb0404f23be84db4833cdc0d7">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/23824"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-12-11T15:13:30</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N9654af6f9bb04dd6815dc32b48ebbd3f">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">272635</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/23824/23824-0.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/23824"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N6daa4d4edbbf41c5a6a4ff4939fcfadf">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-12-11T15:13:26</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">645340</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/23824.kindle.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/23824"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nbf8efc63615242aa8ef719b7d89486d6">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/23824"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">649444</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T19:04:17.965826</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-12T01:46:37.142148</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1266975</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/23824/23824-0.zip">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">272635</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/23824.html.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">664344</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-12T01:46:35.168203</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf4567e25cf0941a0aade291f6548ef92">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          <rdf:Description rdf:nodeID="Nd1fb299f7d124b548496af3b6386087f">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-12-11T15:13:30</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N5383ab368c8f4769b6955f5ae1cab51b">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:isFormatOf rdf:resource="ebooks/23824"/>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nfba6b4c0db5f4c86b14452e7960d8134">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>China -- History -- Tang dynasty, 618-907 -- Fiction</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
     <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-12-11</dcterms:issued>
-    <dcterms:title>說唐</dcterms:title>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/1511">
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Luo_Guanzhong"/>
+        <pgterms:alias>羅貫中</pgterms:alias>
+        <pgterms:name>Luo, Guanzhong</pgterms:name>
+      </pgterms:agent>
+    </dcterms:creator>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/23824/23824-0.txt">
-        <dcterms:isFormatOf rdf:resource="ebooks/23824"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">645340</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/23824.kindle.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-12T01:46:38.612124</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1266967</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb9c676f50d7748cd805b22b1f6c1c4c8">
+          <rdf:Description rdf:nodeID="Ne0641d78460f4d0b950de271f5095a21">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-12-11T15:13:26</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/23824"/>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:alternative>Shuo Tang</dcterms:alternative>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="Ndad8c7ec0c074be5baf07d526c024028">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">zh</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
   </cc:Work>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Luo_Guanzhong">
     <dcterms:description>Wikipedia</dcterms:description>
